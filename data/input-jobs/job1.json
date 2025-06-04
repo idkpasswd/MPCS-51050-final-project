@@ -1,0 +1,18 @@
+{
+  "type": "scrape",
+  "payload": "https://example.com",
+  "subTasks": [
+    {
+      "taskId": "1",
+      "jobId": "abc123",
+      "operation": "download",
+      "payload": "https://example.com/image1.png"
+    },
+    {
+      "taskId": "2",
+      "jobId": "abc123",
+      "operation": "parse",
+      "payload": "https://example.com"
+    }
+  ]
+}
